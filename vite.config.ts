@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/golden-dream-antwerp/docs/",
+  base: "/golden-dream-antwerp/",
   build: {
     outDir: 'docs'
   }
