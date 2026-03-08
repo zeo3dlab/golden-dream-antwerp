@@ -2,6 +2,7 @@ import { useLanguage } from '@/i18n/LanguageContext';
 import { motion } from 'framer-motion';
 import Layout from '@/components/Layout';
 import CollectionsGrid from '@/components/CollectionsGrid';
+import ImageGallery from '@/components/ImageGallery';
 import ReviewsSlider from '@/components/ReviewsSlider';
 import GoogleMapSection from '@/components/GoogleMapSection';
 import { Link } from 'react-router-dom';
@@ -63,6 +64,7 @@ const Index = () => {
       </section>
 
       <CollectionsGrid />
+      <ImageGallery />
       <ReviewsSlider />
       <GoogleMapSection />
     </Layout>
