@@ -1,7 +1,6 @@
 import { useLanguage } from '@/i18n/LanguageContext';
 import { motion } from 'framer-motion';
 import Layout from '@/components/Layout';
-import HeroRing3D from '@/components/HeroRing3D';
 import CollectionsGrid from '@/components/CollectionsGrid';
 import ReviewsSlider from '@/components/ReviewsSlider';
 import GoogleMapSection from '@/components/GoogleMapSection';
@@ -39,12 +38,14 @@ const Index = () => {
           </p>
         </motion.div>
 
+        {/* Placeholder for 3D ring */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, delay: 0.3 }}
+          className="text-8xl md:text-9xl mb-8"
         >
-          <HeroRing3D />
+          💍
         </motion.div>
 
         <motion.div
