@@ -18,5 +18,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/golden-dream-antwerp/",
+  base: "/golden-dream-antwerp/docs/",
+  build: {
+    outDir: 'docs'
+  }
 }));
