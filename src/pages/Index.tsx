@@ -2,6 +2,7 @@ import { useLanguage } from '@/i18n/LanguageContext';
 import { motion } from 'framer-motion';
 import Layout from '@/components/Layout';
 import CollectionsGrid from '@/components/CollectionsGrid';
+import CustomRing3D from '@/components/CustomRing3D';
 import ImageGallery from '@/components/ImageGallery';
 import ReviewsSlider from '@/components/ReviewsSlider';
 import GoogleMapSection from '@/components/GoogleMapSection';
@@ -44,9 +45,9 @@ const Index = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, delay: 0.3 }}
-          className="text-8xl md:text-9xl mb-8"
+          className="mb-8"
         >
-          💍
+          <CustomRing3D />
         </motion.div>
 
         <motion.div
